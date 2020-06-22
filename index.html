@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+        <title>Wulfert Vlot - Eindopdracht WINCFEO6WEEK1</title>
+    </head>
+    <body> 
+        <div id="main">
+                <img src="menu.png" width="100" alt="menuknop" onmouseover="menuZie()">
+            <p>
+                Hallo! Kies een kleur uit het menu linksboven of:
+                    toets 1 voor wit,
+                    toets 2 voor rood,
+                    toets 3 voor oranje,
+                    toets 4 voor paars of
+                    toets 5 voor groen.
+
+            </p>
+            <div id="menu" onmouseleave="menuDicht()">
+                <ul id ="liId">
+                    <li class="listItemClass homeList">
+                        <input type="radio" name="colorCB" id="homeBox" onclick="homeClick()">
+                        Home
+                    </li>
+                    <li class="listItemClass redList">
+                        <input type="radio" name="colorCB" id="redBox" onclick="redClick()">
+                        Red
+                    </li>
+                    <li class="listItemClass orangeList">
+                        <input type="radio" name="colorCB" id="orangeBox" onclick="orangeClick()">
+                        Orange
+                    </li>
+                    <li class="listItemClass purpleList">
+                        <input type="radio" name="colorCB" id="purpleBox" onclick="purpleClick()">
+                        Purple
+                    </li>
+                    <li class="listItemClass greenList">
+                        <input type="radio" name="colorCB" id="greenBox"  onclick="greenClick()">
+                        Green
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <main>
+            <h1 id="header">
+                Home
+            </h1>
+        </main>
+    </body>
+</html>

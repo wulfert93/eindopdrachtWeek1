@@ -1,0 +1,46 @@
+body{
+    background-color: gray;
+    color:black;
+    font-size: 16pt;
+}
+#menu{
+    background-color: black;
+    width: 0px;
+    transition: 2s;
+    margin-bottom: 15px;}
+.listItemClass{
+    height: 30px;
+    margin:10px;
+    padding: 10px;
+    transition-delay:0.5s;
+    transition: 2s;
+    display: block;
+}
+ul {
+    display: none;
+    transition: 2s;
+    transition-delay: 0.5s;
+    list-style-type: none;}
+
+    ul li.homeList{
+        position: relative;
+        color:white;
+        background:black;}
+
+    ul li.redList{
+        position: relative;
+        color:black;
+        background:red;
+    }
+    ul li.orangeList{
+        color:black;
+        background:orange;
+    }
+    ul li.purpleList{
+        color:white;
+        background:purple;
+    }
+    ul li.greenList{
+        color:white;
+        background:green;
+    }
